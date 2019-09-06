@@ -99,5 +99,7 @@ int main() {
 	Match(text, index);
 	SortStrings(index);
 	StringsOutput(index, fout);
+	fclose(fin);
+	fclose(fout);
 	return 0;
 }
